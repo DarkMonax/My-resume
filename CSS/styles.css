@@ -1,0 +1,174 @@
+/* --------Reset------ */
+
+body,
+ol,
+ul,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+/* -----Bode/Wrapp--------- */
+body {
+  font-family: "Montserrat", sans-serif;
+  background: #f6f6fa;
+  padding: 40px;
+}
+
+.wrapper {
+  background: #fff;
+  display: flex;
+  flex-direction: row-reverse;
+
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.main-content {
+  padding: 80px 40px 80px 88px;
+  box-sizing: border-box;
+}
+
+.my-info,
+.my-project,
+.work {
+  margin-bottom: 40px;
+}
+/*  -------------My info------------- */
+
+.my-profession {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 121%;
+  color: #000;
+
+  margin-bottom: 8px;
+}
+
+.my-info-title {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 122%;
+  color: #000;
+
+  margin-bottom: 12px;
+}
+
+.my-info-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 171%;
+  color: #595959;
+}
+
+/* <!----------------My projects----------> */
+
+.my-project-link,
+.tel,
+.malto {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 171%;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #005fff;
+
+  padding-left: 14px;
+}
+
+.my-project-list {
+  padding: 0;
+}
+
+li::marker {
+  font-weight: bold;
+}
+
+.my-project-list {
+  padding-left: 16px;
+}
+
+.my-project-item {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 171%;
+  color: #595959;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 123%;
+  color: #000;
+
+  margin-bottom: 8px;
+}
+
+.work-company-title,
+.education-title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 125%;
+  color: #000;
+
+  margin-bottom: 8px;
+}
+
+/* <!----------------Work experience------> */
+
+.work-company {
+  margin-bottom: 12px;
+}
+
+span {
+  color: #6d9bf5;
+}
+
+.date-text {
+  font-weight: 400;
+  font-size: 12px;
+  color: #a8a8a8;
+
+  margin-bottom: 12px;
+}
+
+.work-company-item {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 171%;
+  color: #595959;
+}
+
+/*  <!---------------Side bar--------------> */
+/* .side-bar-image {
+  display: block;
+} */
+.side-bar {
+  padding: 40px 0px 0px 0px;
+  background: #e0ebfe;
+  box-sizing: border-box;
+  width: 370px;
+}
+
+.side-bar-image {
+  margin-bottom: 40px;
+}
+
+.contacts,
+.tech-skills,
+.soft-skills {
+  margin-bottom: 40px;
+  padding-left: 40px;
+}
+
+.contacts-text {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 171%;
+  color: #161d2a;
+}
